@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=SUSE:wght@100..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #270e31;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+}
+
+header,
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.cbc-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: "Nunito", sans-serif;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.title-header {
+    padding-left: 1.1rem;
+    margin: 0;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+.navbar>ul {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 1.65em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #813cc0;
+}
+
+.navbar>ul>li {
+    margin-right: 35px;
+}
+
+.body-portfolio {
+    padding: 2rem;
+}
+
+.section-portfolio {
+    display: flex;
+    flex-direction: left;
+    align-items: center;
+
+}
+
+.img-home {
+    max-width: 45%;
+    margin-top: 2rem;
+}
+
+.banner-1-home,
+.banner-2-home {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner-1-home {
+    top: 25%;
+    left: 57%;
+}
+
+.banner-2-home {
+    right: 2%;
+}
+
+span {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.text-home {
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Hammersmith One", sans-serif;
+    padding: 90px 10px 9px 10px;
+}
+
+.contact-job {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "Hammersmith One", sans-serif;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+.contact-job:hover{
+    cursor: pointer;
+    background-color: #813cc0;
+    color: #fff;
+}
+
+.button-job{
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.subtitle-home{
+    color: #fff;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 25px;
+    padding-top: 70px;
+    padding-left: 2rem;
+}
+
+.title-experience{
+    color: #fff;
+    font-family: "Hammersmith One", sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2.33rem;
+    font-weight: 500;
+}
+
+.banner-exp-1{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title{
+    color: #fff;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 500;
+    font-size: 2.33rem;
+}
+
+.projectBanner{
+    width: 100%;
+    height: 32vh;
+    border-radius: 6px;
+    border-bottom: 2px solid #000;
+}
+
+.grid-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.grid-projects > div {
+    width: 30.33333%;
+    height: 300px;
+    background-color: #fff;
+    border: 4px solid #813cc0;
+    border-radius: 9px;
+}
+
+.title-grid-projects{
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer-p {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}

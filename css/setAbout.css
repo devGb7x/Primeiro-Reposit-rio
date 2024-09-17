@@ -1,0 +1,144 @@
+section {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.item:nth-child(1) {
+    width: 43%;
+    background-color: black;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:nth-child(2) {
+    width: 80%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.second-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.item2 {
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px 4px 5px 100px;
+}
+
+.third-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .item3:hover {
+    cursor: pointer;
+    background-color: #813cc0;
+} */
+
+.item3 {
+    margin-top: 17px;
+    width: 70px;
+    height: 70px;
+    background-color: #270e31;
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about {
+    width: 56%;
+    max-width: 900px;
+    justify-content: center;
+    display: flex;
+}
+
+.icon-about {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-about::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.icon-about::before {
+    content: "";
+    background: linear-gradient(45deg,
+            #FF0000, #FF7300, #FFFB00, #48FF00,
+            #00FFD5, #002BFF, #FF00C8, #FF0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.icon-about:hover::before {
+    opacity: 1;
+}
+
+.icon-about:active:after {
+    background: transparent;
+}
+
+.about-text-final {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Hammersmith One", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 1000px;
+    line-height: 1.6;
+}
