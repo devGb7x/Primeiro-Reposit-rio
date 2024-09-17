@@ -120,18 +120,18 @@ span {
     border: 1px solid #000;
 }
 
-.contact-job:hover{
+.contact-job:hover {
     cursor: pointer;
     background-color: #813cc0;
     color: #fff;
 }
 
-.button-job{
+.button-job {
     padding-top: 20px;
     padding-left: 35px;
 }
 
-.subtitle-home{
+.subtitle-home {
     color: #fff;
     font-family: "Hammersmith One", sans-serif;
     font-size: 25px;
@@ -139,7 +139,7 @@ span {
     padding-left: 2rem;
 }
 
-.title-experience{
+.title-experience {
     color: #fff;
     font-family: "Hammersmith One", sans-serif;
     text-align: center;
@@ -148,33 +148,33 @@ span {
     font-weight: 500;
 }
 
-.banner-exp-1{
+.banner-exp-1 {
     width: 75%;
     margin: 0 auto;
     display: flex;
 }
 
-.projects{
+.projects {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.project-title{
+.project-title {
     color: #fff;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 500;
     font-size: 2.33rem;
 }
 
-.projectBanner{
+.projectBanner {
     width: 100%;
     height: 32vh;
     border-radius: 6px;
     border-bottom: 2px solid #000;
 }
 
-.grid-projects{
+.grid-projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +184,7 @@ span {
     padding-top: 30px;
 }
 
-.grid-projects > div {
+.grid-projects>div {
     width: 30.33333%;
     height: 300px;
     background-color: #fff;
@@ -192,7 +192,7 @@ span {
     border-radius: 9px;
 }
 
-.title-grid-projects{
+.title-grid-projects {
     font-family: "Nunito", sans-serif;
     font-size: 25px;
     text-align: center;
