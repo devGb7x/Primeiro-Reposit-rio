@@ -1,0 +1,21 @@
+
+.icon-tecnologies {
+    width: 50px; 
+    margin-right: 15px;
+}
+
+.technology-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.technology-text {
+    margin: 0; 
+}
+
+section > ul > li {
+    font-family: "Nunito", sans-serif;
+    font-size: 23px;
+}
+

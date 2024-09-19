@@ -16,6 +16,7 @@ header {
     height: 12vh;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 header,
@@ -34,6 +35,8 @@ nav ul {
     font-family: "Nunito", sans-serif;
     box-shadow: 0 5px rgba(0, 0, 0, 0.3);
 }
+
+
 
 .title-header {
     padding-left: 1.1rem;
@@ -143,15 +146,16 @@ span {
     color: #fff;
     font-family: "Hammersmith One", sans-serif;
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 2.33rem;
+    padding-bottom: 1px;
+    font-size: 2.333rem;
     font-weight: 500;
 }
 
 .banner-exp-1 {
-    width: 75%;
+    width: 69%;
     margin: 0 auto;
-    display: flex;
+    display: block;
+    padding: 0;
 }
 
 .projects {
@@ -170,7 +174,7 @@ span {
 .projectBanner {
     width: 100%;
     height: 32vh;
-    border-radius: 6px;
+    border-radius: 3.5px;
     border-bottom: 2px solid #000;
 }
 
@@ -198,6 +202,15 @@ span {
     text-align: center;
     padding-top: 5px;
 }
+
+hr{
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 30px 0;
+}
+
 
 footer {
     width: 100%;
